@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "value a:"
+read a
+echo "value b:"
+read b
+c=`expr $a + $b` 
+echo "c value= $c"
